@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: 0px;
+
+
+        }
+
+        body {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-image: url(https://wallpapercave.com/wp/wp12670893.jpg);
+            background-size: cover;
+
+        }
+
+        #sun {
+            height: 100px;
+            width: 100px;
+
+            border-radius: 50%;
+            background-image: url(https://img.freepik.com/premium-psd/sun-with-realistic-texture-3d-rendering-isolated-transparent-background_808337-23178.jpg?w=2000);
+            background-size: cover;
+
+        }
+
+        #orbit1 {
+            height: 250px;
+            width: 250px;
+            border: 2px solid gray;
+            position: absolute;
+            border-radius: 50%;
+            animation: rotatation 20s linear 0s infinite normal;
+
+        }
+
+        @keyframes rotatation {
+            from {
+                transform: rotate(0deg);
+
+            }
+
+            to {
+                transform: rotate(360deg);
+
+            }
+
+        }
+
+        #mercury {
+            height: 20px;
+            width: 20px;
+
+            border-radius: 50%;
+            position: relative;
+            top: 45px;
+            left: 8px;
+            background-image: url(https://img.freepik.com/premium-psd/planet-mercury-isolated-cut-out-png_679658-51995.jpg);
+            background-size: cover;
+        }
+
+        #orbit2 {
+            height: 350px;
+            width: 350px;
+            border: 2px solid gray;
+            position: absolute;
+            border-radius: 50%;
+            animation: rotatation 35s linear 0s infinite normal;
+        }
+
+        @keyframes rotatation {
+            from {
+                transform: rotate(0deg);
+
+            }
+
+            to {
+                transform: rotate(360deg);
+
+            }
+
+        }
+
+        #venus {
+            height: 30px;
+            width: 30px;
+
+            border-radius: 50%;
+            position: relative;
+            top: 45px;
+            left: 25px;
+            background-image: url(https://c8.alamy.com/comp/2P6CXR5/venus-the-planet-with-the-highest-surface-temperature-in-the-solar-system-isolated-on-white-background-2P6CXR5.jpg);
+            background-size: cover;
+        }
+
+        #orbit3 {
+
+            height: 450px;
+            width: 450px;
+            border: 2px solid gray;
+            position: absolute;
+            border-radius: 50%;
+            animation: rotatation 30s linear 0s infinite normal;
+        }
+
+        @keyframes rotatation {
+            from {
+                transform: rotate(0deg);
+
+            }
+
+            to {
+                transform: rotate(360deg);
+
+            }
+        }
+
+        #earth {
+            height: 35px;
+            width: 35px;
+
+            border-radius: 50%;
+            position: relative;
+            top: 45px;
+            left: 45px;
+            background-image: url(https://media.gettyimages.com/id/172594262/vector/atlantic-ocean-artwork.jpg?s=612x612&w=gi&k=20&c=1Tp7w3RJl0arZRs3w7MkQk_siwYowRbE8XuUSV5Px04=);
+            background-size: cover;
+        }
+
+        #orbit4 {
+            height: 550px;
+            width: 550px;
+            border: 2px solid gray;
+            position: absolute;
+            border-radius: 50%;
+            animation: rotatation 25s linear 0s infinite normal;
+        }
+
+        @keyframes rotatation {
+            from {
+                transform: rotate(0deg);
+
+            }
+
+            to {
+                transform: rotate(360deg);
+
+            }
+        }
+
+        #mars {
+            height: 20px;
+            width: 20px;
+
+            border-radius: 50%;
+            position: relative;
+            top: 45px;
+            left: 95px;
+            background-image: url(https://tse3.mm.bing.net/th/id/OIP._zqwMhkwiwkLrEc0FJwa2QHaJ3?rs=1&pid=ImgDetMain&o=7&rm=3);
+            background-size: cover;
+
+        }
+
+        #orbit5 {
+            height: 650px;
+            width: 650px;
+            border: 2px solid gray;
+            position: absolute;
+            border-radius: 50%;
+            animation: rotatation 20s linear 0s infinite normal;
+        }
+
+        @keyframes rotatation {
+            from {
+                transform: rotate(0deg);
+
+            }
+
+            to {
+                transform: rotate(360deg);
+
+            }
+        }
+
+        #jupiter {
+            height: 30px;
+            width: 30px;
+
+            border-radius: 50%;
+            position: relative;
+            top: 45px;
+            left: 115px;
+            background-image: url(https://c8.alamy.com/compde/r8jr7h/planet-jupiter-isoliert-r8jr7h.jpg);
+            background-size: cover;
+        }
+
+        #orbit6 {
+            height: 750px;
+            width: 750px;
+            border: 2px solid gray;
+            position: absolute;
+            border-radius: 50%;
+            animation: rotatation 15s linear 0s infinite normal;
+        }
+
+        @keyframes rotatation {
+            from {
+                transform: rotate(0deg);
+
+            }
+
+            to {
+                transform: rotate(360deg);
+
+            }
+        }
+
+        #saturn {
+            height: 45px;
+            width: 45px;
+
+            border-radius: 50%;
+            position: relative;
+            top: 45px;
+            left: 130px;
+            background-image: url(https://www.the-sun.com/wp-content/uploads/sites/6/2022/05/Na-Saturn-offplatform-2.jpg?strip=all&quality=100&w=1620&h=1080&crop=1);
+            background-size: cover;
+
+        }
+
+        #orbit7 {
+            height: 850px;
+            width: 850px;
+            border: 2px solid gray;
+            position: absolute;
+            border-radius: 50%;
+            animation: rotatation 10s linear 0s infinite normal;
+        }
+
+        @keyframes rotatation {
+            from {
+                transform: rotate(0deg);
+
+            }
+
+            to {
+                transform: rotate(360deg);
+
+            }
+        }
+
+        #uranus {
+            height: 50px;
+            width: 50px;
+
+            border-radius: 50%;
+            position: relative;
+            top: 45px;
+            left: 150px;
+            background-image: url(https://science.nasa.gov/wp-content/uploads/2024/03/uranus-pia18182-16x9-1.jpg);
+            background-size: cover;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="orbit1">
+        <div id="mercury"> </div>
+    </div>
+    <div id="orbit2">
+        <div id="venus"> </div>
+    </div>
+    <div id="orbit3">
+        <div id="earth"></div>
+    </div>
+    <div id="orbit4">
+        <div id="mars"></div>
+    </div>
+    <div id="orbit5">
+        <div id="jupiter"></div>
+    </div>
+    <div id="orbit6">
+        <div id="saturn"></div>
+    </div>
+    <div id="orbit7">
+        <div id="uranus"></div>
+    </div>
+
+    <div id="sun"></div>
+
+
+
+
+</body>
+
+</html>
